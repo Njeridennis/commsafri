@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sixth Sense Dimension</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Sixth Sense Dimension</h2>
+                    <p class="tagline">The Art & Science of conveying your ideas and concepts</p>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Showcasing our creative excellence across various branding and promotional projects</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filters -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="vehicle">Vehicle Branding</button>
+                <button class="filter-btn" data-filter="office">Office Branding</button>
+                <button class="filter-btn" data-filter="exhibition">Exhibition Booths</button>
+                <button class="filter-btn" data-filter="merchandise">Merchandise</button>
+                <button class="filter-btn" data-filter="signage">Signage</button>
+                <button class="filter-btn" data-filter="promotional">Promotional Materials</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <!-- Vehicle Branding Projects -->
+                <div class="portfolio-item" data-category="vehicle">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Fleet Branding Project</h4>
+                            <p>Complete vehicle wrap design for a logistics company featuring bold graphics and contact information.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="vehicle">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Delivery Van Graphics</h4>
+                            <p>Eye-catching delivery van branding that transforms vehicles into mobile advertisements.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="vehicle">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-bus"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Public Transport Branding</h4>
+                            <p>Large-scale vehicle branding for public transportation with high-visibility design elements.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Office Branding Projects -->
+                <div class="portfolio-item" data-category="office">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Corporate Office Makeover</h4>
+                            <p>Complete office branding transformation including reception area, conference rooms, and wayfinding.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="office">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-door-open"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Reception Area Design</h4>
+                            <p>Modern reception area branding with illuminated logo and professional signage systems.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="office">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Conference Room Graphics</h4>
+                            <p>Inspiring wall graphics and branding elements for corporate meeting spaces.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Exhibition Booth Projects -->
+                <div class="portfolio-item" data-category="exhibition">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-store-alt"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Trade Show Booth Design</h4>
+                            <p>Custom exhibition booth with interactive elements and eye-catching displays for maximum visitor engagement.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="exhibition">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Corporate Event Setup</h4>
+                            <p>Professional event branding and booth setup for corporate conferences and networking events.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="exhibition">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Award Ceremony Backdrop</h4>
+                            <p>Elegant backdrop design and setup for corporate award ceremonies and special events.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Merchandise Projects -->
+                <div class="portfolio-item" data-category="merchandise">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>PVC Keyring Collection</h4>
+                            <p>Custom-designed PVC keyrings featuring client logos and brand colors for promotional campaigns.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="merchandise">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-tshirt"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Corporate Apparel Line</h4>
+                            <p>Embroidered uniforms and branded apparel for staff identification and corporate events.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="merchandise">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Promotional Gift Set</h4>
+                            <p>Comprehensive promotional package including pens, notebooks, and branded accessories.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Signage Projects -->
+                <div class="portfolio-item" data-category="signage">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-sign"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Outdoor Business Signage</h4>
+                            <p>Weather-resistant outdoor signage with LED illumination for 24/7 brand visibility.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="signage">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Illuminated Lightbox</h4>
+                            <p>Custom lightbox design with energy-efficient LED lighting for retail and commercial spaces.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="signage">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-route"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Wayfinding System</h4>
+                            <p>Comprehensive directional signage system for large commercial complex with clear navigation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Promotional Materials -->
+                <div class="portfolio-item" data-category="promotional">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-table"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Promotional Table Setup</h4>
+                            <p>Portable promotional table with branded graphics and literature displays for marketing events.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="promotional">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Flying Banner Campaign</h4>
+                            <p>Series of flying banners and flags for outdoor promotional campaigns and events.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="promotional">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Poster Campaign Series</h4>
+                            <p>High-impact poster series for product launch campaign with consistent brand messaging.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Stats -->
+    <section class="portfolio-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">13+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Awards & Recognition</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials -->
+    <section class="portfolio-testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say About Our Work</h2>
+                <p>Real feedback from businesses we've helped transform</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The vehicle branding project exceeded our expectations. Our delivery fleet now serves as moving billboards that have significantly increased our brand recognition across the city."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>James Mwangi</h4>
+                            <p>Fleet Manager, Swift Logistics</p>
+                        </div>
+                        <div class="company-logo">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Our office transformation was remarkable. The new branding creates a professional atmosphere that impresses clients and motivates our team every day."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Dr. Mary Wanjiku</h4>
+                            <p>CEO, Wellness Medical Center</p>
+                        </div>
+                        <div class="company-logo">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The exhibition booth design helped us stand out at the trade fair. We generated more leads in three days than we typically do in a month of regular marketing."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Peter Kimani</h4>
+                            <p>Marketing Director, Tech Solutions Ltd</p>
+                        </div>
+                        <div class="company-logo">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Create Your Next Success Story?</h2>
+                <p>Let's discuss how we can help transform your brand and create impactful visual solutions for your business.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-large">Start Your Project</a>
+                    <a href="https://wa.me/254722761221" class="btn btn-whatsapp btn-large" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Chat with Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sixth Sense Dimension</h3>
+                    <p>The Art & Science of conveying your ideas and concepts</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#branding">Branding & POS</a></li>
+                        <li><a href="services.html#merchandise">Branded Merchandise</a></li>
+                        <li><a href="services.html#printing">Design & Printing</a></li>
+                        <li><a href="services.html#signage">Signage Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> AJS House Ltd., Old Nation Roundabout, Nairobi</p>
+                        <p><i class="fas fa-phone"></i> +254 722 761221 / 0720833288</p>
+                        <p><i class="fas fa-envelope"></i> sixthsensedimension@yahoo.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sixth Sense Dimension. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Portfolio filtering functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+
+                    const filterValue = this.getAttribute('data-filter');
+
+                    portfolioItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                            setTimeout(() => {
+                                item.style.opacity = '1';
+                                item.style.transform = 'scale(1)';
+                            }, 100);
+                        } else {
+                            item.style.opacity = '0';
+                            item.style.transform = 'scale(0.8)';
+                            setTimeout(() => {
+                                item.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+
+            // Initialize portfolio items
+            portfolioItems.forEach(item => {
+                item.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+            });
+        });
+    </script>
+</body>
+</html>

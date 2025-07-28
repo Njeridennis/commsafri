@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Sixth Sense Dimension</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Sixth Sense Dimension</h2>
+                    <p class="tagline">The Art & Science of conveying your ideas and concepts</p>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="products.html" class="nav-link active">Products</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>High-quality branded merchandise and promotional items</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Products</h2>
+                <p>Ready-to-order promotional items with custom branding options</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- PVC Keyrings -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <div class="product-info">
+                        <h4>PVC Keyrings</h4>
+                        <p>Durable PVC keyrings with custom logo and design. Available in various shapes and colors. Perfect for promotional campaigns.</p>
+                        <div class="product-details">
+                            <small><strong>Size:</strong> 2-4 inches | <strong>Colors:</strong> Full color printing</small>
+                        </div>
+                        <div class="product-price">From KSh 50 each</div>
+                        <button class="product-btn" onclick="orderProduct('PVC Keyrings')">Request Quote</button>
+                    </div>
+                </div>
+
+                <!-- Lip Balm on Lanyard -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="product-info">
+                        <h4>Lip Balm on Lanyard</h4>
+                        <p>Custom branded lip balm with lanyard attachment. Great for events, trade shows, and promotional giveaways.</p>
+                        <div class="product-details">
+                            <small><strong>Flavors:</strong> Various | <strong>Lanyard:</strong> Custom colors</small>
+                        </div>
+                        <div class="product-price">From KSh 120 each</div>
+                        <button class="product-btn" onclick="orderProduct('Lip Balm on Lanyard')">Request Quote</button>
+                    </div>
+                </div>
+
+                <!-- USB Flash Drives -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-usb"></i>
+                    </div>
+                    <div class="product-info">
+                        <h4>USB Flash Drives</h4>
+                        <p>Custom branded USB flash drives in various capacities. Perfect corporate gifts with your logo engraved or printed.</p>
+                        <div class="product-details">
+                            <small><strong>Capacity:</strong> 4GB-64GB | <strong>Material:</strong> Metal/Plastic</small>
+                        </div>
+                        <div class="product-price">From KSh 800 each</div>
+                        <button class="product-btn" onclick="orderProduct('USB Flash Drives')">Request Quote</button>
+                    </div>
+                </div>
+
+                <!-- Promotion Tables -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-table"></i>
+                    </div>
+                    <div class="product-info">
+                        <h4>Promotion Tables</h4>
+                        <p>Portable promotional tables with custom graphics. Lightweight, easy to set up, perfect for exhibitions and events.</p>
+                        <div class="product-details">
+                            <small><strong>Size:</strong> Standard/Custom | <strong>Material:</strong> Aluminum frame</small>
+                        </div>
+                        <div class="product-price">From KSh 15,000 each</div>
+                        <button class="product-btn" onclick="orderProduct('Promotion Tables')">Request Quote</button>
+                    </div>
+                </div>
+
+                <!-- Flying Banners -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <div class="product-info">
+                        <h4>Flying Banners</h4>
+                        <p>Eye-catching flying banners and feather flags for outdoor advertising. Weather-resistant and highly visible.</p>
+                        <div class="product-details">
+                            <small><strong>Height:</strong> 2.5m-5m | <strong>Material:</strong> Polyester fabric</small>
+                        </div>
+                        <div class="product-price">From KSh 8,500 each</div>
+                        <button class="product-btn" onclick="orderProduct('Flying Banners')">Request Quote</button>
+                    </div>
+                </div>
+
+                <!-- Custom Pens -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-pen"></i>
+                    </div>
+                    <div class="product-info">
+                        <h4>Custom Pens</h4>
+                        <p>High-quality branded pens with your logo. Available in various styles including ballpoint, gel, and executive pens.</p>
+                        <div class="product-details">
+                            <small><strong>Types:</strong> Ballpoint/Gel/Executive | <strong>Colors:</strong> Various</small>
+                        </div>
+                        <div class="product-price">From KSh 25 each</div>
+                        <button class="product-btn" onclick="orderProduct('Custom Pens')">Request Quote</button>
+                    </div>
+                </div>
+
+                <!-- Branded T-Shirts -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <div class="product-info">
+                        <h4>Branded T-Shirts</h4>
+                        <p>Custom printed or embroidered t-shirts for corporate events, team building, and promotional campaigns.</p>
+                        <div class="product-details">
+                            <small><strong>Sizes:</strong> XS-XXXL | <strong>Colors:</strong> Various | <strong>Material:</strong> Cotton</small>
+                        </div>
+                        <div class="product-price">From KSh 450 each</div>
+                        <button class="product-btn" onclick="orderProduct('Branded T-Shirts')">Request Quote</button>
+                    </div>
+                </div>
+
+                <!-- Custom Mugs -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <div class="product-info">
+                        <h4>Custom Mugs</h4>
+                        <p>Personalized ceramic mugs with your brand logo and message. Perfect for office use and corporate gifts.</p>
+                        <div class="product-details">
+                            <small><strong>Capacity:</strong> 11oz/15oz | <strong>Colors:</strong> White/Colored</small>
+                        </div>
+                        <div class="product-price">From KSh 350 each</div>
+                        <button class="product-btn" onclick="orderProduct('Custom Mugs')">Request Quote</button>
+                    </div>
+                </div>
+
+                <!-- Branded Notebooks -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="product-info">
+                        <h4>Branded Notebooks</h4>
+                        <p>Custom notebooks and journals with your company branding. Available in various sizes and binding options.</p>
+                        <div class="product-details">
+                            <small><strong>Sizes:</strong> A4/A5/A6 | <strong>Pages:</strong> 50-200 | <strong>Binding:</strong> Spiral/Perfect</small>
+                        </div>
+                        <div class="product-price">From KSh 180 each</div>
+                        <button class="product-btn" onclick="orderProduct('Branded Notebooks')">Request Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bulk Order Section -->
+    <section class="bulk-order-section">
+        <div class="container">
+            <div class="bulk-order-content">
+                <div class="bulk-info">
+                    <h3>Bulk Order Discounts</h3>
+                    <p>Get better prices when you order in larger quantities. Perfect for corporate events, conferences, and promotional campaigns.</p>
+                    <ul>
+                        <li><strong>50-99 items:</strong> 5% discount</li>
+                        <li><strong>100-499 items:</strong> 10% discount</li>
+                        <li><strong>500-999 items:</strong> 15% discount</li>
+                        <li><strong>1000+ items:</strong> 20% discount</li>
+                    </ul>
+                </div>
+                <div class="bulk-cta">
+                    <h4>Need a custom quote?</h4>
+                    <p>Contact us for personalized pricing on large orders or custom products.</p>
+                    <a href="contact.html" class="btn btn-primary">Get Bulk Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Process -->
+    <section class="order-process">
+        <div class="container">
+            <div class="section-header">
+                <h2>How to Order</h2>
+                <p>Simple steps to get your branded merchandise</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>Choose Product</h4>
+                        <p>Select the products you want and click "Request Quote" to add them to your inquiry.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>Submit Details</h4>
+                        <p>Provide your logo, design requirements, quantities, and delivery timeline.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h4>Get Quote</h4>
+                        <p>Receive a detailed quote with pricing, mockups, and production timeline within 24 hours.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h4>Approve & Pay</h4>
+                        <p>Review the design, approve the quote, and make payment to start production.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h4>Receive Order</h4>
+                        <p>Your branded merchandise will be produced and delivered according to the agreed timeline.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Order Your Branded Merchandise?</h2>
+                <p>Get high-quality promotional products that represent your brand professionally.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-large">Start Your Order</a>
+                    <a href="https://wa.me/254722761221" class="btn btn-whatsapp btn-large" target="_blank">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Order
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sixth Sense Dimension</h3>
+                    <p>The Art & Science of conveying your ideas and concepts</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#branding">Branding & POS</a></li>
+                        <li><a href="services.html#merchandise">Branded Merchandise</a></li>
+                        <li><a href="services.html#printing">Design & Printing</a></li>
+                        <li><a href="services.html#signage">Signage Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> AJS House Ltd., Old Nation Roundabout, Nairobi</p>
+                        <p><i class="fas fa-phone"></i> +254 722 761221 / 0720833288</p>
+                        <p><i class="fas fa-envelope"></i> sixthsensedimension@yahoo.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sixth Sense Dimension. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function orderProduct(productName) {
+            const message = `Hi! I'm interested in ordering ${productName}. Could you please provide more details about pricing, customization options, and minimum order quantities?`;
+            const whatsappUrl = `https://wa.me/254722761221?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+</body>
+</html>
